@@ -1,0 +1,8 @@
+controllers:
+    resource: ../../src/Controller/
+    type: annotation
+    prefix: '/%app.url.api.prefix%/'
+
+kernel:
+    resource: ../../src/Kernel.php
+    type: annotation
